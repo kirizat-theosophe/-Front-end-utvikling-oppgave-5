@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+
+#blaa{
+    position: relative;
+    background-color: navy;
+    width:800px;
+    height:90px;
+    margin:auto;
+    margin-top:100px;
+}
+
+#gul{
+    height:40px;
+    display:grid;
+    grid-template-columns: repeat(16, auto);
+    gap:12px;
+}
+
+#gul div{
+    background-color: yellow;
+}
+
+#brikker{
+   position: absolute;
+   top:10px;
+   padding:12px;
+   width:96%;
+   height:45px;
+   display: grid;
+   grid-template-columns: repeat(16,auto);
+   gap:12px;
+}
+
+#brikker div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: yellow;
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight: 700;
+}
